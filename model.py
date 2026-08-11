@@ -41,8 +41,11 @@ def build_itos(vocab):
         dict[i]=vocab[i]
     return dict
 
-# Step 4 - encode_char (not yet solved)
-# TODO: implement
+# Step 4 - encode_char
+def encode_char(ch, stoi):
+    """Return the integer token id for a single character ch using stoi."""
+    # TODO: look up ch in the stoi mapping and return its id
+    return stoi.get(ch)
 
 # Step 5 - encode_string (not yet solved)
 # TODO: implement
